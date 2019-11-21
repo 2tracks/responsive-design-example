@@ -4,3 +4,22 @@
     border: 1px solid #000;
     display: inline-block;
 }
+
+/* Media queries */
+
+@media (max-width: 767px){
+    .mobile{
+        background-color: #0997d3;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .tablet{
+        background-color: #baba33;
+    }
+}
+@media (min-width: 992px) and (max-width: 1800px){
+    .desktop{
+        background-color: #000;
+    }
+}
+
